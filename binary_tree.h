@@ -12,11 +12,14 @@ struct node
 
 class binary_tree
 {
-	
-		void delete_tree(node *tree);
-		void insert(node **tree, int);
-		bool search(node *tree, int cent);
-		void inorder(node *tree);
-		void preorder(node *tree);
-		void postorder(node * tree);
+	public:
+
+		void delete_tree(tree->root);
+		void insert(tree->root, int);
+		bool search(tree->root, int cent);
+		void inorder(tree->root);
+		void preorder(tree->root);
+		void postorder(tree->root);
+	private:
+		node root;
 };
